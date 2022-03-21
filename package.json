@@ -7,7 +7,8 @@
     "clean": "rimraf ./dist",
     "build": "npm run clean && npx tsc",
     "start": "node ./dist/test.js",
-    "test": "jest"
+    "test": "jest",
+    "test:watch": "jest --watch"
   },
   "keywords": [
     "test",
