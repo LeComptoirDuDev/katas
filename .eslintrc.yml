@@ -12,7 +12,7 @@ plugins:
 rules:
   indent:
     - error
-    - tab
+    - tabs
   linebreak-style:
     - error
     - windows
